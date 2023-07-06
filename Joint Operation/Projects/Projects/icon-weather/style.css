@@ -1,0 +1,47 @@
+.weather-cloud {
+    display: flow-root;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+    margin: 100px auto;
+    margin-bottom: 20px;
+    border-radius: 20%;
+    background: linear-gradient(rgb(0, 147, 248), rgb(1, 248, 249));
+}
+
+.weather {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 99px 30px -68px 138px;
+    background: rgba(228, 249, 255, 1);
+    box-shadow: 
+        -94px -58px 5px 12px rgb(255 205 1 / 20%),
+        -89px 7px 0px -7px rgb(228 249 255),
+        -48px -24px 0px 11px rgb(228 249 255),
+        -94px -58px 0px 12px rgb(255 205 1),
+        -94px -58px 10px 15px rgb(255 205 1);
+}
+
+.weather:hover {
+    background-color: rgba(228, 230 1, 0.5);
+}
+
+.rectangle {
+    display: inline-flex;
+    width: 98px;
+    height: 20px;
+    background-color: rgba(228, 249, 255, 1);
+    margin: 0 0 -173px 80px;
+    border-radius: 50px 50px 8px 8px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    font-family: system-ui;
+    font-weight: bold;
+    font-size: 3em;
+    color: #000;
+}

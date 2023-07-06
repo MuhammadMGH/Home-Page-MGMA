@@ -1,0 +1,169 @@
+th,
+td {
+    border-radius: 50px;
+    height: 50px;
+    font-size: 40px;
+    border: 5px solid;
+    padding: 10px;
+}
+
+.table-title {
+    border: none;
+    text-align: center;
+    font-size: 80px;
+    padding-top: 0px;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(#89f7fe, #66a6ff);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+table>caption {
+    font-size: 100px;
+}
+
+table {
+    padding: 50px;
+    padding-top: 0px;
+    border-spacing: 15px;
+    background-image: linear-gradient(to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #efeeec 75%, #e9e9e7 100%);
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+td {
+    padding-left: 20px;
+    width: 1000px;
+}
+
+th {
+    background-color: white;
+    width: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: cursive;
+    font-family: fantasy;
+    font-family: monospace;
+    
+    /* font-size: 30px; */
+}
+
+.number-1-header,
+.number-1-data {
+    border-color: #8ce3ae;
+}
+
+.number-1-data {
+    background-color: #8ce3ae;
+}
+
+.number-2-header,
+.number-2-data {
+    border-color: #78d1a3;
+}
+
+.number-2-data {
+    background-color: #78d1a3;
+}
+
+.number-3-header,
+.number-3-data {
+    border-color: #62bc99;
+}
+
+.number-3-data {
+    background-color: #62bc99;
+}
+
+.number-4-header,
+.number-4-data {
+    border-color: #4fa98f;
+}
+
+.number-4-data {
+    background-color: #4fa98f;
+}
+
+.number-5-header,
+.number-5-data {
+    border-color: #389583;
+    visibility: hidden;
+}
+
+.number-5-data {
+    background-color: #389583;
+    visibility: hidden;
+}
+
+.number-6-header,
+.number-6-data {
+    border-color: #2b7d7b;
+    visibility: hidden;
+}
+
+.number-6-data {
+    background-color: #2b7d7b;
+    visibility: hidden;
+}
+
+.number-7-header,
+.number-7-data {
+    border-color: #1e6776;
+    visibility: hidden;
+}
+
+.number-7-data {
+    background-color: #1e6776;
+    visibility: hidden;
+}
+
+.number-8-header,
+.number-8-data {
+    border-color: #155672;
+    visibility: hidden;
+}
+
+.number-8-data {
+    background-color: #155672;
+    visibility: hidden;
+}
+
+.number-9-header,
+.number-9-data {
+    border-color: #0d476d;
+    visibility: hidden;
+}
+
+.number-9-data {
+    background-color: #0d476d;
+    visibility: hidden;
+}
+
+.number-10-header,
+.number-10-data {
+    border-color: #05396b;
+    visibility: hidden;
+}
+
+.number-10-data {
+    background-color: #05396b;
+}
+
+.add_button{
+    visibility: visible;
+}

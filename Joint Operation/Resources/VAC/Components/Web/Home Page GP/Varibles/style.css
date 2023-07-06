@@ -1,0 +1,124 @@
+:root {
+    /* tracks */
+        --sys-spacing-track: 8px;
+
+    /* radiuses */
+        --sys-radius-none: 2px;
+        --sys-radius-xsmall: 4px;
+        --sys-radius-small: 8px;
+        --sys-radius-medium: 12px;
+        --sys-radius-large: 16px;
+        --sys-radius-xlarge: 28px;
+        --sys-radius-fab-icon: 25%;/* OR 50% */
+        --sys-radius-image-or-fab-icon: 50%;
+
+    /* colors */
+        --sys-color-hue: 230;
+        --sys-color-primary: hsl(var(--sys-color-hue), 35%, 48%);
+        --sys-color-on-primary: hsl(var(--sys-color-hue), 100%, 99%);
+        --sys-color-primary-container: hsl(var(--sys-color-hue), 100%, 94%);
+        --sys-color-on-primary-container: hsl(var(--sys-color-hue), 100%, 18%);
+        --sys-surface-link-color: #5e6568;
+        --sys-on-surface-link-color: #f8fdff;
+        --sys-color-secondary: #39414c;
+        --sys-color-default-office: #74b529;
+
+    /* opacities */
+        --sys-surface-elevation-opacity-1: 0.2;
+        --sys-surface-elevation-opacity-2: 0.14;
+        --sys-surface-elevation-opacity-3: 0.12;
+
+    /* colors and opacities hover */
+        --sys-surface-state-color: var(--sys-color-hue), 100%, 18%;
+        --sys-surface-state-opacity-focus: 0.119;
+        --sys-surface-state-opacity-hover: 0.079;
+
+    /* transitions */
+        --transition-duration-very-long: 500ms;
+        --transition-duration-long: 450ms;
+        --transition-duration-short: 300ms;
+        --transition-duration-very-short: 150ms;
+
+    /* motions */
+        --ref-motion-duration-frame: 16.66666666666666667ms;
+        --ref-motion-duration-small: calc(8 * var(--ref-motion-duration-frame));
+        --ref-motion-duration-large: calc(18 * var(--ref-motion-duration-frame));
+
+    /* references */
+        --ref-font-weight-regular: 400;
+        --ref-font-weight-medium: 500;
+        --ref-font-weight-bold: 600;
+        --ref-font-weight-xbold: 700;
+
+    /* box shadows */
+        --sys-color-shadow-hsl: 0, 0%, 0%;
+
+        --sys-elevation-1:
+            3px 4px 32px 0 rgba(0, 0, 0, 0.5),
+            2px -1px 2px -1px rgba(0, 0, 0, 0.14),
+            3px 0px 4px 0 rgba(0, 0, 0, 0.28)
+        ;
+
+        --sys-surface-elevation-2: 
+            0 3px 1px -2px hsla(var(--sys-color-shadow-hsl), var(--sys-surface-elevation-opacity-1)),
+            0 2px 2px 0 hsla(var(--sys-color-shadow-hsl), var(--sys-surface-elevation-opacity-2)),
+            0 1px 5px 0 hsla(var(--sys-color-shadow-hsl), var(--sys-surface-elevation-opacity-3))
+        ;
+    
+        --elevation-1: 
+          1px 4px 4px -2px rgba(0, 0, 0, 0.14),
+          4px 1px 8px 0 rgba(0, 0, 0, 0.12),
+          0 3px 3px -2px rgba(0, 0, 0, 0.4)
+        ;
+
+        --elevation-2: 
+          0 2px 4px 0 rgba(0, 0, 0, 0.14),
+          0 1px 8px 0 rgba(0, 0, 0, 0.12),
+          0 3px 3px -2px rgba(0, 0, 0, 0.4)
+        ;
+
+        --elevation-3:
+          3px 3px 4px 0 rgba(255, 255, 255, 0.14),
+          -2px -2px 8px 0 rgba(255, 255, 255, 0.12),
+          -1px 3px 3px -2px rgba(255, 255, 255, 0.4)
+        ;
+
+        --elevation-4:
+          0px 5px 15px 0px rgba(0, 0, 0, 0.15),
+          0 3px 3px -2px rgba(0, 0, 0, 0.4)
+        ;
+
+        --sys-elevation-footer-header:
+            0 8px 20px 0 rgba(0, 0, 0, 0.58),
+            0 -8px 20px 0 rgba(0, 0, 0, 0.58)
+        ;
+
+        --sys-elevation-image-active:
+            0 0 8px 4px #9e9e9e,
+            0 0 8px 4px rgba(0, 0, 0, 0.34)
+        ;
+
+        --sys-elevation-inset-box-shadow: inset;
+  }
+  
+  /* @media (prefers-color-scheme: dark) {
+    :root {
+      --sys-color-primary: hsl(var(--sys-color-hue), 15%, 16%);
+      --sys-color-on-primary: hsl(var(--sys-color-hue), 4%, 75%);
+      --sys-color-primary-container: hsl(var(--sys-color-hue), 46%, 69%);
+      --sys-color-on-primary-container: hsl(var(--sys-color-hue), 100%, 18%);
+  }
+} */
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    user-select: none;
+    transition: var(--ref-motion-duration-frame);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}

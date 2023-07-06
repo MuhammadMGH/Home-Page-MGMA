@@ -1,0 +1,94 @@
+:root {
+    --padding: 50px;
+
+    --radius: 50%;
+    --radius-box: 25px;
+
+    --box-shadow: 0px 2px 21px;
+    --box-shadow-color: rgba(0, 0, 0, 0.25);
+
+    --bgc-color: rgb(34, 34, 34);
+    --bgc-color-1: rgb(47, 47, 47);
+    --bgc-color-circle: #f6966b;
+    --color: #fff;
+    --color-hover: #222222;
+
+    --left: -10px;
+    --right: -12px;
+    --tran: 500ms;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: var(--bgc-color);
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: calc(6 * var(--padding));
+    align-items: center;
+    border-radius: var(--radius-box);
+    background-color: var(--bgc-color-1);
+    overflow: hidden;
+    box-shadow: var(--box-shadow) var(--box-shadow-color);
+    margin: var(--padding) calc(4 * var(--padding));
+    cursor: pointer;
+}
+
+.card:active {
+    opacity: 0.9;
+}
+
+.describ {
+    padding: var(--padding);
+    background-color: transparent;
+    color: var(--color);
+    box-shadow: var(--box-shadow) var(--box-shadow-color);
+    z-index: 1;
+}
+
+.describ p, .describ h2 {
+    transition: color var(--tran);
+}
+
+.circle-top , .circle-bottom {
+    position: absolute;
+    width: var(--padding);
+    height: var(--padding);
+    background-color: var(--bgc-color-circle);
+    border-radius: var(--radius);
+    transition: transform var(--tran) ease-in-out;
+}
+
+.circle-top {
+    left: var(--left);
+    top: var(--right);
+}
+
+.circle-bottom {
+    bottom: var(--left);
+    right: var(--right);
+}
+
+.card:hover .circle-top ,
+.card:hover .circle-bottom {
+    transform: scale(12);
+    transition: transform var(--tran);
+}
+
+.card:hover .describ p,
+.card:hover .describ h2 {
+    color: var(--color-hover);
+    transition: transform var(--tran);
+}

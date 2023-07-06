@@ -1,0 +1,46 @@
+body{
+    background: linear-gradient(#89f7fe, #66a6ff);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+table, td{
+    border-style: ridge;
+    text-align: center;
+    margin: 50px;
+    border-radius: 5px;
+
+}
+table{
+    padding: 20px;
+}
+table>{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+
+}
+input{
+    width: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+td{
+    
+    width: 100px;
+    border-width: 5px;
+}
+#first_row_space{
+    border-style: hidden;
+}
+#substrate_s{
+    background-color: darksalmon;
+    border-color: rgb(230, 131, 98);
+}
+#substrate_p{
+    background-color:palegreen;
+    border-color: rgb(128, 255, 128);
+}
+#substrate_d{
+    background-color:dodgerblue;
+    border-color: rgb(38, 138, 238); 
+}
